@@ -1,7 +1,15 @@
 import { TestBed } from '@angular/core/testing';
+import { platformBrowserDynamicTesting } from '@angular/platform-browser-dynamic/testing';
+import { BrowserTestingModule } from '@angular/platform-browser/testing';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
+  // beforeAll(() => {
+  //   TestBed.initTestEnvironment(
+  //     BrowserTestingModule,
+  //     platformBrowserDynamicTesting()
+  //   );
+  // });
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [
